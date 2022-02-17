@@ -1,0 +1,34 @@
+.posts-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list-item-container {
+  width: 90%;
+}
+
+.list-item {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.list-item-icon {
+  width: 10%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-item-content {
+  width: 70%;
+  padding: 10px;
+  display: inline-block;
+}
+
+.list-item-content p {
+  text-align: left;
+}
